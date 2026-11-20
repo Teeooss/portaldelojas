@@ -5,5 +5,5 @@ pages_build_output_dir = "./dist"
 [[d1_databases]]
 binding = "LOJAS_DB"
 database_name = "vitrine-lojas"
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "d29c8c4d-10aa-4211-a03a-5ed63f55a64f"
 migrations_dir = "migrations"
