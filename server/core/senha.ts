@@ -1,4 +1,4 @@
-const ITERACOES = 120_000;
+const ITERACOES = 100_000;
 const enc = new TextEncoder();
 function paraHex(bytes: Uint8Array) { return Array.from(bytes, (b) => b.toString(16).padStart(2, '0')).join(''); }
 function deHex(texto: string) { return new Uint8Array(texto.match(/.{2}/g)?.map((b) => Number.parseInt(b, 16)) ?? []); }
